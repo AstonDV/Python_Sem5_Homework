@@ -25,7 +25,7 @@ def input_num(message: str) -> int:
             return temp
 
 def almost_bigger(almost=0, bigger=0):
-    temp = input_num('please enter number: ')
+    temp = input_num('Введите число: ')
     if temp == 0:
         return almost, bigger
     elif temp > bigger:
