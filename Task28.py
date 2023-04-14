@@ -5,3 +5,12 @@
 # 4
 
 
+a = int(input("Введите число A: "))
+b = int(input("Введите число B: "))
+
+def sum(a, b):
+    if b == 0:
+        return a
+    return sum(a+1, b-1)
+
+print(sum(a, b))
